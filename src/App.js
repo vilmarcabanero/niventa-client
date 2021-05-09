@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 import Particles from './components/Particles'
+import UnderDevelopment from './components/UnderDevelopment'
 
 function App() {
-  return (
-    <div>
-      <Particles/>
-    </div>
-  );
+	return (
+		<div>
+			<Particles />
+			<UnderDevelopment />
+		</div>
+	)
 }
 
-export default App;
+export default App
